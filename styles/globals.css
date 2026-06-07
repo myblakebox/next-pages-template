@@ -3,7 +3,5 @@
 
 @custom-variant dark (&:is(.dark *));
 
-@theme {
-    --font-sans: "font", sans-serif;
-    --font-mono: "monospace", monospace;
-}
+/* The default font (Figtree) is baked into @blakeui/styles.
+   Override --font-sans / --font-mono here to use your own fonts. */
